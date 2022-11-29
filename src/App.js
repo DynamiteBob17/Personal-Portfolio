@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import WebProjects from "./pages/WebProjects";
-import JavaProjects from "./pages/JavaProjects";
-import CodingChallenges from "./pages/CodingChallenges";
+import Home from "./pages/home/Home";
+import WebProjects from "./pages/web_projects/WebProjects";
+import JavaProjects from "./pages/java_projects/JavaProjects";
+import CodingChallenges from "./pages/coding_challenges/CodingChallenges";
 import NoPage from "./pages/NoPage";
 
 function App() {
