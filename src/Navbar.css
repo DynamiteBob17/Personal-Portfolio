@@ -6,8 +6,7 @@ nav {
   overflow: auto;
   background: linear-gradient(to right, #2b5876, #4e4376);
 }
-
-a {
+nav a {
   padding: 15px 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -16,13 +15,11 @@ a {
   font-size: 18px;
   color: whitesmoke;
 }
-
-a:hover {
+nav a:hover {
   background-color: #231e35;
   color: whitesmoke;
 }
-
-.active {
+nav .active {
   background-color: whitesmoke;
   color: #231e35;
 }
@@ -32,8 +29,8 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  a {
+  nav a {
     padding: 6px 11px;
     text-align: center;
   }
-}
+}/*# sourceMappingURL=Navbar.css.map */

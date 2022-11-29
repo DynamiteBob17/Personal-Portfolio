@@ -1,0 +1,40 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  background: linear-gradient(to right, #2b5876, #4e4376);
+
+  a {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+
+  a:hover {
+    background-color: #231e35;
+    color: whitesmoke;
+  }
+
+  .active {
+    background-color: whitesmoke;
+    color: #231e35;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    a {
+        padding: 6px 11px;
+        text-align: center;
+    }
+  }
+}
