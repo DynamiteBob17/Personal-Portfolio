@@ -1,4 +1,5 @@
 import React from "react";
+import './CodingChallenges.css';
 
 function CodingChallenges() {
     return (

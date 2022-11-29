@@ -1,4 +1,5 @@
 import React from "react";
+import './JavaProjects.css';
 
 function JavaProjects() {
     return (

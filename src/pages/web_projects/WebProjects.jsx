@@ -1,4 +1,5 @@
 import React from "react";
+import './WebProjects.css';
 
 function WebProjects() {
     return (
