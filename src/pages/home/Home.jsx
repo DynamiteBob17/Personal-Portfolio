@@ -41,7 +41,7 @@ function Home() {
             </div>
             <div id="works_wrapper">
                 <div id="works_intro">
-                    These are some of the personal things I work on and have worked on
+                    These are some of the things I work on and have worked on
                 </div>
                 <div id="works">
                     <Work
