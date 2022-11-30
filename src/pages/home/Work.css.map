@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Work.css"}
+{"version":3,"sources":["Work.scss","Work.css"],"names":[],"mappings":"AAAA;EACI,qBAAA;EACA,eAAA;EACA,yBAAA;EACA,kBAAA;EACA,4BAAA;EACA,gBAAA;EACA,2BAAA;EACA,cAAA;EAgBA,qCAAA;EACA,uCAAA;ACdJ;ADDI;EACI,6BAAA;EACA,iBAAA;EACA,iBAAA;ACGR;ADAI;EACI,kBAAA;ACER;ADCI;EACI,qBAAA;ACCR;;ADMA;EACI,8BAAA;EACA,uBAAA;ACHJ","file":"Work.css"}

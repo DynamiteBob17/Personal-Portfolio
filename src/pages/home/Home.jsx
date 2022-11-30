@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './Home.css';
 import Work from "./Work";
 
-const birthday = new Date('2000/01/08');
+const birthday = new Date('2000/01/08 00:10');
 
 function Home() {
     const [age, setAge] = useState(new Date(new Date() - birthday));
@@ -28,7 +28,7 @@ function Home() {
                     A software developer
                 </div>
                 <div id="age_desc">
-                    How old I am
+                    How old am I?
                     <div id="age">
                         {age.getUTCFullYear() - 1970} <sub>yrs</sub>
                         &nbsp;{age.getUTCMonth()} <sub>mths</sub>
@@ -88,7 +88,7 @@ function Home() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Curriculum Vitae
+                        <i className={"fa-solid fa-file-lines"} /> Curriculum Vitae
                     </a>
                 </div>
                 <div id="contacts">
