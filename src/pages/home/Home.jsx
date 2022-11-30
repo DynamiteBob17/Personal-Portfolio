@@ -1,6 +1,6 @@
+import React, { useEffect, useState } from "react";
 import './Home.css';
-import { React, useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import Work from "./Work";
 
 const birthday = new Date('2000/01/08');
 
@@ -44,31 +44,24 @@ function Home() {
                     These are some of the personal things I work on and have worked on
                 </div>
                 <div id="works">
-                    <NavLink className={"work"} to="/web_projects">
-                        <div className={"work_title"}>
-                            <i className={"fa fa-globe"} /> WEB PROJECTS
-                        </div>
-                        <div className={"work_desc"}>
-                            Some frontend, backend or full stack web projects
-                        </div>
-                    </NavLink>
-                    <NavLink className={"work"} to="/java_projects">
-                        <div className={"work_title"}>
-                            <i className={"fa-brands fa-java"} /> JAVA PROJECTS
-                        </div>
-                        <div className={"work_desc"}>
-                            A number of desktop programs written in Java on topics
-                            and concepts I took interest in
-                        </div>
-                    </NavLink>
-                    <NavLink className={"work"} to="/coding_challenges">
-                        <div className={"work_title"}>
-                            <i className={"fa fa-code"} /> CODING CHALLENGES
-                        </div>
-                        <div className={"work_desc"}>
-                            A collection of coding challenges that I solve from time to time.
-                        </div>
-                    </NavLink>
+                    <Work
+                        icon={"fa fa-globe"}
+                        title={"WEB PROJECTS"}
+                        description={"Some frontend, backend or full stack web projects"}
+                        route={"/web_projects"} 
+                    />
+                    <Work
+                        icon={"fa-brands fa-java"}
+                        title={"JAVA PROJECTS"}
+                        description={"A number of desktop programs written in Java on topics and concepts I took interest in"}
+                        route={"/java_projects"} 
+                    />
+                    <Work
+                        icon={"fa fa-code"}
+                        title={"CODING CHALLENGES"}
+                        description={"A collection of coding challenges that I solve from time to time"}
+                        route={"/coding_challenges"} 
+                    />
                 </div>
             </div>
             <div id="resume_and_contacts">
@@ -112,7 +105,7 @@ function Home() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        source code for this website
+                        [source code for this website]
                     </a>
                 </div>
             </div>
