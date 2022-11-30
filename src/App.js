@@ -10,12 +10,12 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Layout />}>
+                <Route path={"/"} element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="web_projects" element={<WebProjects />} />
-                    <Route path="java_projects" element={<JavaProjects />} />
-                    <Route path="coding_challenges" element={<CodingChallenges />} />
-                    <Route path="*" element={<NoPage />} />
+                    <Route path={"web_projects"} element={<WebProjects />} />
+                    <Route path={"java_projects"} element={<JavaProjects />} />
+                    <Route path={"coding_challenges"} element={<CodingChallenges />} />
+                    <Route path={"*"} element={<NoPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -3,7 +3,6 @@ nav {
   top: 0;
   width: 100%;
   display: flex;
-  overflow: auto;
   background: linear-gradient(to right, #2b5876, #4e4376);
 
   a {
@@ -31,6 +30,7 @@ nav {
   nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    overflow: auto;
 
     a {
         padding: 6px 11px;
