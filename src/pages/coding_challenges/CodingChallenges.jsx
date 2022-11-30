@@ -25,16 +25,28 @@ function CodingChallenges() {
                         .then(res => res.text())
                         .then(
                             res => {
-                                setChallenges(prevState => [...prevState, {
-                                    filename: result.data[i].name,
-                                    content: res
-                                }]);
+                                setChallenges(prevState => {
+                                    let newChall = {
+                                        filename: result.data[i].name,
+                                        content: res
+                                    }
+
+                                    return prevState.some(chall => chall.filename === newChall.filename)
+                                        ? prevState
+                                        : [...prevState, newChall];
+                                });
                             },
                             err => {
-                                setChallenges(prevState => [...prevState, {
-                                    filename: result.data[i].name,
-                                    content: 'Error: could not load file content'
-                                }]);
+                                setChallenges(prevState => {
+                                    let newChall = {
+                                        filename: result.data[i].name,
+                                        content: 'Error: could not load file content'
+                                    }
+
+                                    return prevState.some(chall => chall.filename === newChall.filename)
+                                        ? prevState
+                                        : [...prevState, newChall];
+                                });
                             }
                         );
                 }
@@ -72,7 +84,7 @@ function CodingChallenges() {
                     </a>
                 </div>
                 <div id="challenges">
-                    {challenges.map((chall, idx) => {
+                    {[...challenges].map((chall, idx) => {
                         return <Challenge
                             key={`key${idx}`}
                             idx={idx}
