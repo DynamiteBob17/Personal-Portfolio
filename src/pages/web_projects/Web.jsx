@@ -1,7 +1,7 @@
 import React from "react";
 import "./Web.css";
 
-function Web({ link, name, screenshot, alt, source }) {
+function Web({ link, name, screenshot, alt, source, sourceComment }) {
     return (
         <div className={"web_project"}>
             <a
@@ -24,7 +24,7 @@ function Web({ link, name, screenshot, alt, source }) {
                 rel="noreferrer"
                 className={"web_project_source_link"}
             >
-                [source code]
+                [source code]{sourceComment === undefined ? '' : ` *${sourceComment}`}
             </a>
         </div>
     );
