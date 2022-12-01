@@ -4,7 +4,6 @@
     align-items: center;
     margin: auto 15px 15px 15px;
     text-align: center;
-    font-family: 'Varela Round', sans-serif;
 
     #intro {
         margin: 25px 0 50px 0;
@@ -87,10 +86,13 @@
             a {
                 text-decoration: none;
                 color: #2b5876;
+                transition: color .2s ease-in-out, transform .2s ease-in-out;
+                display: inline-block;
             }
 
             a:hover {
-                text-shadow: 2px 2px 10px gray;
+                color: lightcoral;
+                transform: translateY(-3px);
             }
         }
 
@@ -102,6 +104,10 @@
                 color: #2b5876;
             }
 
+            a:hover {
+                color: lightcoral;
+            }
+
             a:first-of-type {
                 margin-right: 50px;
             }
@@ -110,6 +116,10 @@
         #source_code {            
             a {
                 color: gray;
+            }
+
+            a:hover {
+                color: lightcoral;
             }
         }
     }

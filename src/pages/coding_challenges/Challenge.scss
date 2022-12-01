@@ -1,1 +1,39 @@
+.challenge {
+    button {
+       width: 100%;
+       padding: 15px 0;
+       font-size: 1.2rem;
+       background-color: #30475e;
+       border: none;
+       color: #dddddd;
+       border-bottom: 2px solid #dddddd;
+       cursor: pointer;
+       transition: color .2s ease-in-out, background-color .2s ease-in-out;
+    }
 
+    button:hover {
+        color: #30475e;
+        background-color: #dddddd;
+    }
+
+    .highlight_border {
+        border-bottom: 2px solid #f05454;
+    }
+
+    .collapsible_content {
+        pre {
+            margin: 0;
+            padding: 5px 10px;
+            background-color: #15191e;
+            overflow-x: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .challenge {
+        button {
+            font-size: 1rem;
+        }
+    }
+}

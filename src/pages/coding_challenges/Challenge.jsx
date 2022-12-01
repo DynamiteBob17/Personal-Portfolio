@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { UnmountClosed } from "react-collapse";
 import Prism from "prismjs";
-import "./prism.css";
+import "prismjs/themes/prism-okaidia.css";
 import "./Challenge.css";
 
 function Challenge({ idx,  filename, content }) {
@@ -14,7 +14,7 @@ function Challenge({ idx,  filename, content }) {
      
     return (
         <div className={"challenge"}>
-            <button onClick={handleClick}>
+            <button onClick={handleClick} className={open ? "highlight_border" : ""}>
                 {idx + 1}. {filename}
             </button>
             <UnmountClosed isOpened={open}>

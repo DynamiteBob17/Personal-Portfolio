@@ -24,7 +24,7 @@ function WebProjects() {
             <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/relational-database-v8"}
                 name={"Relational Database"}
-                screenshot={"https://i.ibb.co/0rr299B/psql-Bash-Git.png"}
+                screenshot={"https://i.ibb.co/NTcfnPj/image-1.png"}
                 alt={"psql-Bash-Git"}
                 source={"https://www.freecodecamp.org/certification/PickleEaterJim33/relational-database-v8"}
                 sourceComment={"solution=source"}
@@ -32,7 +32,7 @@ function WebProjects() {
             <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/data-visualization"}
                 name={"Data Visualization"}
-                screenshot={"https://i.ibb.co/P4FPz00/d3.png"}
+                screenshot={"https://cdn.dribbble.com/users/22018/screenshots/2456036/d3.png"}
                 alt={"d3"}
                 source={"https://www.freecodecamp.org/certification/PickleEaterJim33/data-visualization"}
                 sourceComment={"codepen pens viewed in editor"}
@@ -47,7 +47,7 @@ function WebProjects() {
             />
             <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}
-                name={"Javascript Algorithms and Data Structures"}
+                name={"JavaScript"}
                 screenshot={"https://i.ibb.co/vXVxzjy/javascript.png"}
                 alt={"javascript"}
                 source={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}

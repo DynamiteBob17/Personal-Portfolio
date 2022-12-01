@@ -22,11 +22,10 @@
         text-decoration: none;
     }
 
-    transition: 1000ms ease-in-out border;
-    transition: 200ms ease-in-out transform;
+    transition: border .2s ease-in-out, transform .2s ease-in-out;
 }
 
 .work:hover {
-    border: 3px solid lightskyblue;
+    border: 3px solid lightcoral;
     transform: scale(1.033);
 }

@@ -7,8 +7,7 @@
   max-width: 300px;
   background-color: aliceblue;
   color: #2b5876;
-  transition: 1000ms ease-in-out border;
-  transition: 200ms ease-in-out transform;
+  transition: border 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 .work .work_title {
   border-bottom: 2px solid gray;
@@ -23,6 +22,6 @@
 }
 
 .work:hover {
-  border: 3px solid lightskyblue;
+  border: 3px solid lightcoral;
   transform: scale(1.033);
 }/*# sourceMappingURL=Work.css.map */

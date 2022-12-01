@@ -1,1 +1,40 @@
-/*# sourceMappingURL=Web.css.map */
+.web_project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.web_project .web_project_link {
+  background: linear-gradient(to bottom right, #5de6de, #b58ecc);
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #231e35;
+  font-size: 1.1rem;
+  box-shadow: 0px 0px 10px rgba(78, 67, 118, 0.5);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.web_project .web_project_link .web_project_name {
+  margin-bottom: 10px;
+}
+.web_project .web_project_link img {
+  background-color: white;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+.web_project .web_project_link:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px lightcoral;
+}
+.web_project .web_project_source_link {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+.web_project .web_project_source_link:hover {
+  color: lightcoral;
+}/*# sourceMappingURL=Web.css.map */

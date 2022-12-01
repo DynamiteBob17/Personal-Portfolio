@@ -4,7 +4,6 @@
   align-items: center;
   margin: auto 15px 15px 15px;
   text-align: center;
-  font-family: "Varela Round", sans-serif;
 }
 #homepage #intro {
   margin: 25px 0 50px 0;
@@ -79,9 +78,12 @@
 #homepage #resume_and_contacts #links a {
   text-decoration: none;
   color: #2b5876;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: inline-block;
 }
 #homepage #resume_and_contacts #links a:hover {
-  text-shadow: 2px 2px 10px gray;
+  color: lightcoral;
+  transform: translateY(-3px);
 }
 #homepage #resume_and_contacts #contacts {
   margin-bottom: 20px;
@@ -90,11 +92,17 @@
 #homepage #resume_and_contacts #contacts a {
   color: #2b5876;
 }
+#homepage #resume_and_contacts #contacts a:hover {
+  color: lightcoral;
+}
 #homepage #resume_and_contacts #contacts a:first-of-type {
   margin-right: 50px;
 }
 #homepage #resume_and_contacts #source_code a {
   color: gray;
+}
+#homepage #resume_and_contacts #source_code a:hover {
+  color: lightcoral;
 }
 
 @-webkit-keyframes gradient {

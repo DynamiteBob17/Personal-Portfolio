@@ -33,7 +33,7 @@ function CodingChallenges() {
 
                                     return prevState.some(chall => chall.filename === newChall.filename)
                                         ? prevState
-                                        : [...prevState, newChall];
+                                        : [...prevState, newChall].sort((a, b) => a.filename.localeCompare(b.filename));
                                 });
                             },
                             err => {
@@ -45,7 +45,7 @@ function CodingChallenges() {
 
                                     return prevState.some(chall => chall.filename === newChall.filename)
                                         ? prevState
-                                        : [...prevState, newChall];
+                                        : [...prevState, newChall].sort((a, b) => a.filename.localeCompare(b.filename));
                                 });
                             }
                         );
@@ -54,48 +54,37 @@ function CodingChallenges() {
                 setChallenges(null);
             });
         }
-    onLoad();
+        onLoad();
     }, []);
-
-    if (challenges.length === 0) {
-        return (
-            <div id="challenges_loading">
-                Loading...
+    return (
+        <div id="challenges_wrapper">
+            <div id="top_bar">
+                <span id="title">Coding Challenges</span>
+                <a
+                    id="repo_link"
+                    href="https://github.com/PickleEaterJim33/Coding-Exercises"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    [repository]
+                </a>
             </div>
-        );
-    } else if (challenges === null) {
-        return (
-            <div id="loading_error">
-                Error: could not access challenges
+            <div id="challenges">
+                {challenges.length === 0
+                    ? <div id="challenges_loading"></div>
+                    : challenges === null
+                        ? <div id="loading_error">Error: could not access challenges</div>
+                        : [...challenges].map((chall, idx) => {
+                            return <Challenge
+                                key={`key${idx}`}
+                                idx={idx}
+                                filename={chall.filename}
+                                content={chall.content}
+                            />;
+                        })}
             </div>
-        )
-    } else {
-        return (
-            <div id="challenges_wrapper">
-                <div id="top_bar">
-                    <span id="title">Coding Challenges</span>
-                    <a
-                        id="repo_link"
-                        href="https://github.com/PickleEaterJim33/Coding-Exercises"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        [repository]
-                    </a>
-                </div>
-                <div id="challenges">
-                    {[...challenges].map((chall, idx) => {
-                        return <Challenge
-                            key={`key${idx}`}
-                            idx={idx}
-                            filename={chall.filename}
-                            content={chall.content}
-                        />;
-                    })}
-                </div>
-            </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default CodingChallenges;
