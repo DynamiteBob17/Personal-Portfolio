@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Octokit } from "@octokit/rest";
-import "./CodingChallenges.css";
+import "./CodingChallenges.scss";
 import Challenge from "./Challenge";
 
 const octokit = new Octokit({

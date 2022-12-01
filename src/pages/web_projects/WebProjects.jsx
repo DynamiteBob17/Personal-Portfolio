@@ -1,5 +1,5 @@
 import React from "react";
-import './WebProjects.css';
+import './WebProjects.scss';
 import Web from "./Web";
 
 function WebProjects() {

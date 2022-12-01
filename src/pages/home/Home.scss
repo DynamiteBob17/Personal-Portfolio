@@ -1,4 +1,5 @@
 #homepage {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +32,7 @@
                 border-radius: 7px;
                 background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
                 background-size: 400% 400%;
+                -webkit-animation: gradient 15s ease infinite;
                 animation: gradient 15s ease infinite;
                 color: whitesmoke;
 
@@ -86,12 +88,13 @@
             a {
                 text-decoration: none;
                 color: #2b5876;
-                transition: color .2s ease-in-out, transform .2s ease-in-out;
+                transition: color .2s ease-in-out, -webkit-transform .2s ease-in-out, transform .2s ease-in-out;
                 display: inline-block;
             }
 
             a:hover {
                 color: lightcoral;
+                -webkit-transform: translateY(-3px);
                 transform: translateY(-3px);
             }
         }
@@ -125,6 +128,18 @@
     }
 }
 
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+
 @keyframes gradient {
   0% {
       background-position: 0% 50%;
@@ -141,6 +156,7 @@
     #homepage {
         #resume_and_contacts {
             #links {
+                display: -webkit-flex;
                 display: flex;
                 flex-direction: column;
 
@@ -151,6 +167,7 @@
             }
 
             #contacts {
+                display: -webkit-flex;
                 display: flex;
                 flex-direction: column;
 

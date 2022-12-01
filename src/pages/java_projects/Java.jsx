@@ -1,5 +1,5 @@
 import React from "react";
-import "./Java.css";
+import "./Java.scss";
 
 function Java({ link, name, video, videoName }) {
     return (

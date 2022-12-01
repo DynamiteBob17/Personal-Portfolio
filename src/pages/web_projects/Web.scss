@@ -1,4 +1,5 @@
 .web_project {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +15,7 @@
         color: #231e35;
         font-size: 1.1rem;
         box-shadow: 0px 0px 10px rgb(78, 67, 118, 0.5);
-        transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+        transition: -webkit-transform .2s ease-in-out, transform .2s ease-in-out, box-shadow .2s ease-in-out;
 
         .web_project_name {
             margin-bottom: 10px;
@@ -30,6 +31,7 @@
     }
 
     .web_project_link:hover {
+        -webkit-transform: scale(1.1);
         transform: scale(1.1);
         box-shadow: 0px 0px 15px lightcoral;
     }

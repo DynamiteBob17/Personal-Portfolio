@@ -1,5 +1,5 @@
 import React from "react";
-import './JavaProjects.css';
+import './JavaProjects.scss';
 import Java from "./Java";
 
 function JavaProjects() {

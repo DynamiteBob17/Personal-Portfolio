@@ -1,4 +1,5 @@
 .java_project {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,11 +9,12 @@
         font-size: 1.3rem;
         font-weight: bold;
         margin-bottom: 15px;
-        transition: color .2s ease-in-out, transform .2s ease-in-out;
+        transition: color .2s ease-in-out, -webkit-transform .2s ease-in-out,transform .2s ease-in-out;
     }
 
     a:hover {
         color: lightcoral;
+        -webkit-transform: translateY(-3px);
         transform: translateY(-3px);
     }
 

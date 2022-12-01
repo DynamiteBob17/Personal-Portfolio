@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './Home.css';
+import './Home.scss';
 import Work from "./Work";
 
 const birthday = new Date('2000/01/08 00:10');

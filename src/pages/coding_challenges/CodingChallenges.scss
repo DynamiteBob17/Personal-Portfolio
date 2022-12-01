@@ -2,6 +2,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 2px solid black;
     border-radius: 5px;
@@ -15,6 +16,7 @@
     #top_bar {
         padding: 0 15px;
         height: 40px;
+        display: -webkit-flex;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -53,6 +55,7 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     position: absolute;
     left: 50%;
@@ -60,9 +63,26 @@
     margin: -40px;
 }
 
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 #loading_error {

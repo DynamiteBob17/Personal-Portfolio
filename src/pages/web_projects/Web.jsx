@@ -1,5 +1,5 @@
 import React from "react";
-import "./Web.css";
+import "./Web.scss";
 
 function Web({ link, name, screenshot, alt, source, sourceComment }) {
     return (

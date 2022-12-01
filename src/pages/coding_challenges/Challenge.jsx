@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { UnmountClosed } from "react-collapse";
 import Prism from "prismjs";
 import "prismjs/themes/prism-okaidia.css";
-import "./Challenge.css";
+import "./Challenge.scss";
 
 function Challenge({ idx,  filename, content }) {
     const [open, setOpen] = useState(false);

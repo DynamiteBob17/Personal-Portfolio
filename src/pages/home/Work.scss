@@ -22,10 +22,11 @@
         text-decoration: none;
     }
 
-    transition: border .2s ease-in-out, transform .2s ease-in-out;
+    transition: border .2s ease-in-out, -webkit-transform .2s ease-in-out, transform .2s ease-in-out;
 }
 
 .work:hover {
     border: 3px solid lightcoral;
+    -webkit-transform: scale(1.033);
     transform: scale(1.033);
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Work.css";
+import "./Work.scss";
 
 function Work({ icon, title, description, route }) {
     return (
