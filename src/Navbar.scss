@@ -4,7 +4,9 @@ nav {
   width: 100%;
   display: -webkit-flex;
   display: flex;
+  z-index: 333;
   background: linear-gradient(to right, #2b5876, #4e4376);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.333);
 
   a {
     padding: 15px 20px;
