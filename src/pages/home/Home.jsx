@@ -22,7 +22,7 @@ function Home() {
         <div id="homepage">
             <div id="intro">
                 <div id="hello">
-                    Hello, I'm testing github actions
+                    Hello, I'm Jan
                 </div>
                 <div id="intro_desc">
                     A software developer
