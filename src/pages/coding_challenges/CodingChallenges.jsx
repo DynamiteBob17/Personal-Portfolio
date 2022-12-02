@@ -74,7 +74,7 @@ function CodingChallenges() {
                     ? <div id="challenges_loading"></div>
                     : challenges === null
                         ? <div id="loading_error">Error: could not access challenges</div>
-                        : [...challenges].map((chall, idx) => {
+                        : challenges.map((chall, idx) => {
                             return <Challenge
                                 key={`key${idx}`}
                                 idx={idx}
