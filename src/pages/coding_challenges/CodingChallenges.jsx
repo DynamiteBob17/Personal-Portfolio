@@ -4,7 +4,7 @@ import "./CodingChallenges.scss";
 import Challenge from "./Challenge";
 
 const octokit = new Octokit({
-    auth: process.env.REACT_APP_PAT,
+    auth: '',
     userAgent: 'PickleEaterJim33'
 });
 
