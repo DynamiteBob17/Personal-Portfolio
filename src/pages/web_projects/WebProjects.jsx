@@ -14,6 +14,14 @@ function WebProjects() {
                 sourceComment={"work in progress"}
             />
             <Web
+                 link={"https://lightning-literate-bookcase.glitch.me"}
+                 name="Quick Little Stripe 0EUR Payment Demo"
+                 screenshot={"https://images.ctfassets.net/fzn2n1nzq965/2kHRo8MeZ1JxpGCicQtNwm/5f6c855d24b747e45ee47f78ad885703/newsroom-news-corporate-card.jpeg?q=80"}
+                 alt={"stripe-card"}
+                 source={"https://github.com/PickleEaterJim33/stripe-demo"}
+                 sourceComment={""}
+            />
+            <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
                 name={"Quality Assurance"}
                 screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
