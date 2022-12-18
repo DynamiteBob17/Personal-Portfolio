@@ -15,8 +15,8 @@ function WebProjects() {
             />
             <Web
                  link={"https://lightning-literate-bookcase.glitch.me"}
-                 name="Quick Little Stripe 0EUR Payment Demo"
-                 screenshot={"https://ps.w.org/stripe/assets/icon-256x256.png?rev=2784844"}
+                 name="Payment Demo 0EUR"
+                 screenshot={"https://www.lendio.com/wp-content/uploads/2021/06/Credit-cards.jpg"}
                  alt={"stripe-card"}
                  source={"https://github.com/PickleEaterJim33/stripe-demo"}
                  sourceComment={""}
