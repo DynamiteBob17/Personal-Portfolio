@@ -7,7 +7,7 @@ function WebProjects() {
         <div id="web_projects_wrapper">
             <Web
                 link={"https://soft-lead.firebaseapp.com/"}
-                name="Project Managament App"
+                name="Project Management App"
                 screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
                 alt={"project-management-app"}
                 source={"https://github.com/PickleEaterJim33/project-management-client"}
