@@ -6,6 +6,14 @@ function WebProjects() {
     return (
         <div id="web_projects_wrapper">
             <Web
+                link={"https://soft-lead.firebaseapp.com/"}
+                name="Project Managament App"
+                screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
+                alt={"project-management-app"}
+                source={"https://github.com/PickleEaterJim33/project-management-client"}
+                sourceComment={"work in progress"}
+            />
+            <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
                 name={"Quality Assurance"}
                 screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
