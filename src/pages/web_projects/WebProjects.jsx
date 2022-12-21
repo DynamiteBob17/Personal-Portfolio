@@ -11,7 +11,7 @@ function WebProjects() {
                 screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
                 alt={"project-management-app"}
                 source={"https://github.com/PickleEaterJim33/Project-Management-Client"}
-                sourceComment={"api link in README"}
+                sourceComment={"api link and test users in README"}
             />
             <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
