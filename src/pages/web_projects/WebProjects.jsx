@@ -22,6 +22,14 @@ function WebProjects() {
                 sourceComment={"api link in README"}
             />
             <Web
+                link={"https://pickle-chat.onrender.com"}
+                name="Socket.io Chat Demo"
+                screenshot={"https://miro.medium.com/max/1400/1*tWm33yhceKIL22QqOORu2w.png"}
+                alt={"pickle-chat"}
+                source={"https://github.com/PickleEaterJim33/Socket-Chat-Demo"}
+                sourceComment={"todo: add more features"}
+            />
+            <Web
                 link={"https://pickle-stripe.onrender.com"}
                 name="Stripe Payment Demo"
                 screenshot={"https://pbs.twimg.com/profile_images/1503494829094756357/ihaECs5p_400x400.jpg"}
