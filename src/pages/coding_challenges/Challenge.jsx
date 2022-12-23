@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import { UnmountClosed } from "react-collapse";
-import Prism from "prismjs";
-import "prismjs/themes/prism-okaidia.css";
 import "./Challenge.scss";
+import Code from "./Code";
 
-function Challenge({ idx,  filename, content }) {
+function Challenge({ idx, filename, code }) {
     const [open, setOpen] = useState(false);
-    const extension = filename.match(/(?<=.)[a-z]+$/i)[0];
+    const language = filename.match(/(?<=.)[a-z]+$/i)[0];
 
     function handleClick() {
         setOpen(prevState => !prevState);
     }
-     
+
     return (
         <div className={"challenge"}>
             <button onClick={handleClick} className={open ? "highlight_border" : ""}>
@@ -19,14 +18,7 @@ function Challenge({ idx,  filename, content }) {
             </button>
             <UnmountClosed isOpened={open}>
                 <div className={"collapsible_content"}>
-                    <pre>
-                        <code
-                            className={`language-${extension}`} 
-                            dangerouslySetInnerHTML={
-                                { __html: Prism.highlight(content, Prism.languages[extension]) }
-                            }
-                        />
-                    </pre>
+                    <Code code={code} language={language} />
                 </div>
             </UnmountClosed>
         </div>

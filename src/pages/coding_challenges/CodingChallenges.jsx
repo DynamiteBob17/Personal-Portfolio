@@ -79,7 +79,7 @@ function CodingChallenges() {
                                 key={`key${idx}`}
                                 idx={idx}
                                 filename={chall.filename}
-                                content={chall.content}
+                                code={chall.content}
                             />;
                         })}
             </div>
