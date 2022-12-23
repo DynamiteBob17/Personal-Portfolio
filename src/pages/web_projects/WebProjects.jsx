@@ -22,6 +22,14 @@ function WebProjects() {
                 sourceComment={"api link in README"}
             />
             <Web
+                link={"https://pickle-stripe.onrender.com"}
+                name="Stripe Payment Demo"
+                screenshot={"https://static01.nyt.com/images/2021/03/14/business/14stripe1/14stripe1-mediumSquareAt3X.jpg"}
+                alt={"stripe-payment-demo"}
+                source={"https://github.com/PickleEaterJim33/Stripe-Test-Payment"}
+                sourceComment={"use test cards"}
+            />
+            <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
                 name={"Quality Assurance"}
                 screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
