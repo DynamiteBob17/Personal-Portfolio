@@ -14,6 +14,14 @@ function WebProjects() {
                 sourceComment={"api link and test users in README"}
             />
             <Web
+                link={"https://imgup-pickle.firebaseapp.com/"}
+                name="Image Upload App"
+                screenshot={"https://www.lifewire.com/thmb/TRGYpWa4KzxUt1Fkgr3FqjOd6VQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cloud-upload-a30f385a928e44e199a62210d578375a.jpg"}
+                alt={"image-upload-app"}
+                source={"https://github.com/PickleEaterJim33/Image-Upload-Client"}
+                sourceComment={"api link in README"}
+            />
+            <Web
                 link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
                 name={"Quality Assurance"}
                 screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
