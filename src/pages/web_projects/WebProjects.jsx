@@ -24,7 +24,7 @@ function WebProjects() {
             <Web
                 link={"https://pickle-stripe.onrender.com"}
                 name="Stripe Payment Demo"
-                screenshot={"https://static01.nyt.com/images/2021/03/14/business/14stripe1/14stripe1-mediumSquareAt3X.jpg"}
+                screenshot={"https://pbs.twimg.com/profile_images/1503494829094756357/ihaECs5p_400x400.jpg"}
                 alt={"stripe-payment-demo"}
                 source={"https://github.com/PickleEaterJim33/Stripe-Test-Payment"}
                 sourceComment={"use test cards"}
