@@ -8,7 +8,7 @@ function Challenge({ idx, filename, code }) {
     const language = filename.match(/(?<=.)[a-z]+$/i)[0];
 
     function handleClick() {
-        setOpen(prevState => !prevState);
+        setOpen(!open);
     }
 
     return (
