@@ -8,11 +8,12 @@ function WebProjects() {
             <p
                 style={{
                     position: 'absolute',
+                    right: '0',
                     margin: '0',
                     fontSize: '13px',
                     fontStyle: 'italic',
                     color: 'grey',
-                    padding: '5px 0 0 5px'
+                    padding: '5px 5px 0 0'
                 }}
             >
                 *some hosted projects and services<br></br> might need some time to wake up and load
