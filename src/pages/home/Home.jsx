@@ -48,19 +48,19 @@ function Home() {
                         icon={"fa fa-globe"}
                         title={"WEB PROJECTS"}
                         description={"Some frontend, backend or full stack web projects"}
-                        route={"/web_projects"} 
+                        route={"/web_projects"}
                     />
                     <Work
                         icon={"fa-brands fa-java"}
                         title={"JAVA PROJECTS"}
                         description={"A number of desktop programs written in Java on topics and concepts I took interest in"}
-                        route={"/java_projects"} 
+                        route={"/java_projects"}
                     />
                     <Work
                         icon={"fa fa-code"}
                         title={"CODING CHALLENGES"}
                         description={"A collection of coding challenges that I solve from time to time"}
-                        route={"/coding_challenges"} 
+                        route={"/coding_challenges"}
                     />
                 </div>
             </div>
@@ -89,6 +89,13 @@ function Home() {
                         rel="noreferrer"
                     >
                         <i className={"fa-solid fa-file-lines"} /> Curriculum Vitae
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-924abb25b"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fa-brands fa-linkedin"} /> LinkedIn
                     </a>
                 </div>
                 <div id="contacts">
