@@ -54,7 +54,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
-                    name={"Quality Assurance"}
+                    name={"Quality Assurance\n+ backend and APIs"}
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
                     alt={"mocha-Chai"}
                     source={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
