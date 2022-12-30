@@ -57,48 +57,108 @@ function WebProjects() {
                     name={"Quality Assurance\n+ backend and APIs"}
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
                     alt={"mocha-Chai"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
-                    sourceComment={"located at the same link"}
+                    fccSources={[
+                        'https://replit.com/@JanMlinaric/FCC-Metric-Imperial-Converter?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-Issue-Tracker?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-Personal-Library?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-Sudoku-Solver?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-American-British-Translator?v=1'
+                    ]}
+                    fccComments={[
+                        'Metric-Imperial Converter',
+                        'Issue Tracker',
+                        'Personal Library',
+                        'Sudoku Solver',
+                        'American-British Translator'
+                    ]}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/back-end-development-and-apis"}
                     name={"Backend and APIs"}
                     screenshot={"https://i.ibb.co/LYcf0J1/node-Express-Mongodb.png"}
                     alt={"node-Express-Mongodb"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/back-end-development-and-apis"}
-                    sourceComment={"located at the same link"}
+                    fccSources={[
+                        'https://replit.com/@JanMlinaric/FCC-Timestamp-Project?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-Headparser-Project?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-URL-Shortener-Project?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-Exercise-Tracker-Project?v=1',
+                        'https://replit.com/@JanMlinaric/FCC-File-Metadata-Project?v=1'
+                    ]}
+                    fccComments={[
+                        'Timestamp Microservice',
+                        'Request Header Parser Microservice',
+                        'URL Shortener Microservice',
+                        'Exercise Tracker',
+                        'File Metadata Microservice'
+                    ]}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/relational-database-v8"}
                     name={"Relational Database"}
                     screenshot={"https://i.ibb.co/NTcfnPj/image-1.png"}
                     alt={"psql-Bash-Git"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/relational-database-v8"}
-                    sourceComment={"solution=source"}
+                    fccSources={[
+                        'https://github.com/PickleEaterJim33/FCC/blob/main/Celestial%20Bodies%20Database/universe.sql',
+                        'https://github.com/PickleEaterJim33/FCC/tree/main/World%20Cup%20Database',
+                        'https://github.com/PickleEaterJim33/FCC/tree/main/Salon%20Appointment%20Scheduler',
+                        'https://github.com/PickleEaterJim33/Periodic-Table-FCC',
+                        'https://github.com/PickleEaterJim33/Number-Guessing-Game-FCC'
+                    ]}
+                    fccComments={[
+                        'Celestial Bodies Database',
+                        'World Cup Database',
+                        'Salon Appointment Scheduler',
+                        'Periodic Table Database',
+                        'Number Guessing Game'
+                    ]}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/data-visualization"}
                     name={"Data Visualization"}
                     screenshot={"https://cdn.dribbble.com/users/22018/screenshots/2456036/d3.png"}
                     alt={"d3"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/data-visualization"}
-                    sourceComment={"codepen pens viewed in editor"}
+                    fccSources={[
+                        'https://codepen.io/pickleeaterjim33/full/xxjpOZq',
+                        'https://codepen.io/pickleeaterjim33/full/LYmeOjO',
+                        'https://codepen.io/pickleeaterjim33/full/yLjpmLV',
+                        'https://codepen.io/pickleeaterjim33/full/xxjYagY',
+                        'https://codepen.io/pickleeaterjim33/full/eYrVaNr'
+                    ]}
+                    fccComments={[
+                        'Bar Chart',
+                        'Scatterplot Graph',
+                        'Heat Map',
+                        'Choropleth Map',
+                        'Treemap Diagram'
+                    ]}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/front-end-development-libraries"}
                     name={"Frontend Libraries"}
                     screenshot={"https://i.ibb.co/JxVL3KK/frontend.png"}
                     alt={"frontend"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/front-end-development-libraries"}
-                    sourceComment={"codepen pens viewed in editor"}
+                    fccSources={[
+                        'https://codepen.io/pickleeaterjim33/full/yLjbzxo',
+                        'https://codepen.io/pickleeaterjim33/full/dyeWrrM',
+                        'https://codepen.io/pickleeaterjim33/full/poVrrmm',
+                        'https://codepen.io/pickleeaterjim33/full/ZEoXZzr',
+                        'https://codepen.io/pickleeaterjim33/full/PoeOZoP'
+                    ]}
+                    fccComments={[
+                        'Random Quote Machine',
+                        'Markdown Previewer',
+                        'Drum Machine',
+                        'JavaScript Calculator',
+                        '25 + 5 Clock'
+                    ]}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}
-                    name={"JavaScript"}
+                    name={"JavaScript Algorithms\nand Data Structures"}
                     screenshot={"https://i.ibb.co/vXVxzjy/javascript.png"}
                     alt={"javascript"}
                     source={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}
-                    sourceComment={"solution=source"}
+                    sourceComment={"practice projects at same link"}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/responsive-web-design"}
@@ -106,7 +166,7 @@ function WebProjects() {
                     screenshot={"https://i.ibb.co/xJwt4G0/htmlCss.png"}
                     alt={"html-Css"}
                     source={"https://www.freecodecamp.org/certification/PickleEaterJim33/responsive-web-design"}
-                    sourceComment={"located at the same link"}
+                    sourceComment={"practice projects at same link"}
                 />
             </div>
         </>
