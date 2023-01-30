@@ -29,30 +29,6 @@ function WebProjects() {
                     sourceComment={"api link and test users in README"}
                 />
                 <Web
-                    link={"https://imgup-pickle.firebaseapp.com/"}
-                    name="Image Upload App"
-                    screenshot={"https://www.lifewire.com/thmb/TRGYpWa4KzxUt1Fkgr3FqjOd6VQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cloud-upload-a30f385a928e44e199a62210d578375a.jpg"}
-                    alt={"image-upload-app"}
-                    source={"https://github.com/PickleEaterJim33/Image-Upload-Client"}
-                    sourceComment={"api link in README"}
-                />
-                <Web
-                    link={"https://pickle-chat.onrender.com"}
-                    name="Socket.io Chat Demo"
-                    screenshot={"https://miro.medium.com/max/1400/1*tWm33yhceKIL22QqOORu2w.png"}
-                    alt={"pickle-chat"}
-                    source={"https://github.com/PickleEaterJim33/Socket-Chat-Demo"}
-                    sourceComment={"todo: add more features"}
-                />
-                <Web
-                    link={"https://pickle-stripe.onrender.com"}
-                    name="Stripe Payment Demo"
-                    screenshot={"https://pbs.twimg.com/profile_images/1503494829094756357/ihaECs5p_400x400.jpg"}
-                    alt={"stripe-payment-demo"}
-                    source={"https://github.com/PickleEaterJim33/Stripe-Test-Payment"}
-                    sourceComment={"use test cards"}
-                />
-                <Web
                     link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
                     name={"Quality Assurance\n+ backend and APIs"}
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
