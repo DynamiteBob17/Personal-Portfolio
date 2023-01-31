@@ -34,11 +34,11 @@ function WebProjects() {
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
                     alt={"mocha-Chai"}
                     fccSources={[
-                        'https://replit.com/@JanMlinaric/FCC-Metric-Imperial-Converter?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-Issue-Tracker?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-Personal-Library?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-Sudoku-Solver?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-American-British-Translator?v=1'
+                        'https://fcc-converter.onrender.com',
+                        'https://fcc-issuetracker.onrender.com',
+                        'https://fcc-library-jb9a.onrender.com',
+                        'https://fcc-sudoku.onrender.com',
+                        'https://fcc-translator.onrender.com'
                     ]}
                     fccComments={[
                         'Metric-Imperial Converter',
