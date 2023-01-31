@@ -5,7 +5,7 @@ import Challenge from "./Challenge";
 
 const octokit = new Octokit({
     auth: '',
-    userAgent: 'PickleEaterJim33'
+    userAgent: 'DynamiteBob17'
 });
 
 function CodingChallenges() {
@@ -15,7 +15,7 @@ function CodingChallenges() {
         async function onLoad() {
             await octokit.request(
                 'GET /repos/{owner}/{repo}/contents/{path}', {
-                    owner: 'PickleEaterJim33',
+                    owner: 'DynamiteBob17',
                     repo: 'Coding-Exercises',
                     path: '.'
                 }
@@ -62,7 +62,7 @@ function CodingChallenges() {
                 <span id="title">Coding Challenges</span>
                 <a
                     id="repo_link"
-                    href="https://github.com/PickleEaterJim33/Coding-Exercises"
+                    href="https://github.com/DynamiteBob17/Coding-Exercises"
                     target="_blank"
                     rel="noreferrer"
                 >

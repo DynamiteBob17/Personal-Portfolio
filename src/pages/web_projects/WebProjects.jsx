@@ -25,11 +25,11 @@ function WebProjects() {
                     name="Project Management App"
                     screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
                     alt={"project-management-app"}
-                    source={"https://github.com/PickleEaterJim33/Project-Management-Client"}
+                    source={"https://github.com/DynamiteBob17/Project-Management-Client"}
                     sourceComment={"api link and test users in README"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/quality-assurance-v7"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/quality-assurance-v7"}
                     name={"Quality Assurance\n+ backend and APIs"}
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
                     alt={"mocha-Chai"}
@@ -49,7 +49,7 @@ function WebProjects() {
                     ]}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/back-end-development-and-apis"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/back-end-development-and-apis"}
                     name={"Backend and APIs"}
                     screenshot={"https://i.ibb.co/LYcf0J1/node-Express-Mongodb.png"}
                     alt={"node-Express-Mongodb"}
@@ -69,16 +69,16 @@ function WebProjects() {
                     ]}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/relational-database-v8"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/relational-database-v8"}
                     name={"Relational Database"}
                     screenshot={"https://i.ibb.co/NTcfnPj/image-1.png"}
                     alt={"psql-Bash-Git"}
                     fccSources={[
-                        'https://github.com/PickleEaterJim33/FCC/blob/main/Celestial%20Bodies%20Database/universe.sql',
-                        'https://github.com/PickleEaterJim33/FCC/tree/main/World%20Cup%20Database',
-                        'https://github.com/PickleEaterJim33/FCC/tree/main/Salon%20Appointment%20Scheduler',
-                        'https://github.com/PickleEaterJim33/Periodic-Table-FCC',
-                        'https://github.com/PickleEaterJim33/Number-Guessing-Game-FCC'
+                        'https://github.com/DynamiteBob17/FCC/blob/main/Celestial%20Bodies%20Database/universe.sql',
+                        'https://github.com/DynamiteBob17/FCC/tree/main/World%20Cup%20Database',
+                        'https://github.com/DynamiteBob17/FCC/tree/main/Salon%20Appointment%20Scheduler',
+                        'https://github.com/DynamiteBob17/Periodic-Table-FCC',
+                        'https://github.com/DynamiteBob17/Number-Guessing-Game-FCC'
                     ]}
                     fccComments={[
                         'Celestial Bodies Database',
@@ -89,16 +89,16 @@ function WebProjects() {
                     ]}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/data-visualization"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/data-visualization"}
                     name={"Data Visualization"}
                     screenshot={"https://cdn.dribbble.com/users/22018/screenshots/2456036/d3.png"}
                     alt={"d3"}
                     fccSources={[
-                        'https://codepen.io/pickleeaterjim33/full/xxjpOZq',
-                        'https://codepen.io/pickleeaterjim33/full/LYmeOjO',
-                        'https://codepen.io/pickleeaterjim33/full/yLjpmLV',
-                        'https://codepen.io/pickleeaterjim33/full/xxjYagY',
-                        'https://codepen.io/pickleeaterjim33/full/eYrVaNr'
+                        'https://codepen.io/DynamiteBob17/full/xxjpOZq',
+                        'https://codepen.io/DynamiteBob17/full/LYmeOjO',
+                        'https://codepen.io/DynamiteBob17/full/yLjpmLV',
+                        'https://codepen.io/DynamiteBob17/full/xxjYagY',
+                        'https://codepen.io/DynamiteBob17/full/eYrVaNr'
                     ]}
                     fccComments={[
                         'Bar Chart',
@@ -109,16 +109,16 @@ function WebProjects() {
                     ]}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/front-end-development-libraries"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/front-end-development-libraries"}
                     name={"Frontend Libraries"}
                     screenshot={"https://i.ibb.co/JxVL3KK/frontend.png"}
                     alt={"frontend"}
                     fccSources={[
-                        'https://codepen.io/pickleeaterjim33/full/yLjbzxo',
-                        'https://codepen.io/pickleeaterjim33/full/dyeWrrM',
-                        'https://codepen.io/pickleeaterjim33/full/poVrrmm',
-                        'https://codepen.io/pickleeaterjim33/full/ZEoXZzr',
-                        'https://codepen.io/pickleeaterjim33/full/PoeOZoP'
+                        'https://codepen.io/DynamiteBob17/full/yLjbzxo',
+                        'https://codepen.io/DynamiteBob17/full/dyeWrrM',
+                        'https://codepen.io/DynamiteBob17/full/poVrrmm',
+                        'https://codepen.io/DynamiteBob17/full/ZEoXZzr',
+                        'https://codepen.io/DynamiteBob17/full/PoeOZoP'
                     ]}
                     fccComments={[
                         'Random Quote Machine',
@@ -129,19 +129,19 @@ function WebProjects() {
                     ]}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/javascript-algorithms-and-data-structures"}
                     name={"JavaScript Algorithms\nand Data Structures"}
                     screenshot={"https://i.ibb.co/vXVxzjy/javascript.png"}
                     alt={"javascript"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/javascript-algorithms-and-data-structures"}
+                    source={"https://www.freecodecamp.org/certification/DynamiteBob17/javascript-algorithms-and-data-structures"}
                     sourceComment={"practice projects at same link"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/PickleEaterJim33/responsive-web-design"}
+                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/responsive-web-design"}
                     name={"Responsive Web Design"}
                     screenshot={"https://i.ibb.co/xJwt4G0/htmlCss.png"}
                     alt={"html-Css"}
-                    source={"https://www.freecodecamp.org/certification/PickleEaterJim33/responsive-web-design"}
+                    source={"https://www.freecodecamp.org/certification/DynamiteBob17/responsive-web-design"}
                     sourceComment={"practice projects at same link"}
                 />
             </div>

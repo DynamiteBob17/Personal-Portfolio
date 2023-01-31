@@ -70,14 +70,14 @@ function Home() {
                 </div>
                 <div id="links">
                     <a
-                        href="https://www.freecodecamp.org/PickleEaterJim33"
+                        href="https://www.freecodecamp.org/DynamiteBob17"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
                     </a>
                     <a
-                        href="https://github.com/PickleEaterJim33"
+                        href="https://github.com/DynamiteBob17"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -108,7 +108,7 @@ function Home() {
                 </div>
                 <div id="source_code">
                     <a
-                        href="https://github.com/PickleEaterJim33/Personal-Portfolio"
+                        href="https://github.com/DynamiteBob17/Personal-Portfolio"
                         target="_blank"
                         rel="noreferrer"
                     >
