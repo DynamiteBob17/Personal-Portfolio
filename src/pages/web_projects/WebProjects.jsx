@@ -22,7 +22,7 @@ function WebProjects() {
             <div id="web_projects_wrapper">
                 <Web
                     link={"https://pm-pickle.firebaseapp.com/"}
-                    name="Project Management App"
+                    name={"Project Management App\n(CRA + Express + PostgreSQL)"}
                     screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
                     alt={"project-management-app"}
                     source={"https://github.com/DynamiteBob17/Project-Management-Client"}
