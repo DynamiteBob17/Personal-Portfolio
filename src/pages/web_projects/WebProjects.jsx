@@ -34,7 +34,7 @@ function WebProjects() {
                     screenshot={"https://i.pinimg.com/originals/19/0d/44/190d447da8ee306ea080b72107c757af.jpg"}
                     alt={"pinterest-clone"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
-                    sourceComment={"server code link"}
+                    sourceComment={"server code link in README"}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/DynamiteBob17/quality-assurance-v7"}
