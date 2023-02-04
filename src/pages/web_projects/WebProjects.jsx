@@ -29,6 +29,14 @@ function WebProjects() {
                     sourceComment={"server code link and test users in README"}
                 />
                 <Web
+                    link={"https://pintclonemlinka.firebaseapp.com/"}
+                    name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
+                    screenshot={"https://i.pinimg.com/originals/19/0d/44/190d447da8ee306ea080b72107c757af.jpg"}
+                    alt={"pinterest-clone"}
+                    source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
+                    sourceComment={"server code link"}
+                />
+                <Web
                     link={"https://www.freecodecamp.org/certification/DynamiteBob17/quality-assurance-v7"}
                     name={"Quality Assurance\n+ backend and APIs"}
                     screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
