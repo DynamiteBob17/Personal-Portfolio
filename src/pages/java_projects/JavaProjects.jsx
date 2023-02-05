@@ -7,13 +7,13 @@ function JavaProjects() {
         <>
             <p
                 style={{
-                    position: 'absolute',
+                    position: 'relative',
                     left: '0',
-                    margin: '7px',
+                    margin: '0',
                     fontSize: '13px',
                     fontStyle: 'italic',
                     color: 'grey',
-                    padding: '5px 5px 0 0'
+                    padding: '7px'
                 }}
             >
                 *project repository links are in the titles

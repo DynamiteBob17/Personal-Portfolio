@@ -35,6 +35,7 @@ function Web({ link, name, screenshot, alt, source, sourceComment, fccSources, f
                                 target="_blank"
                                 rel="noreferrer"
                                 className={"web_project_source_link"}
+                                key={idx}
                             >
                                 {fccComments[idx]}
                             </a>

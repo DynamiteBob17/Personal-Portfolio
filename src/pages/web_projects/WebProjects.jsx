@@ -7,13 +7,13 @@ function WebProjects() {
         <>
             <p
                 style={{
-                    position: 'absolute',
+                    position: 'relative',
                     left: '0',
                     margin: '7px',
                     fontSize: '13px',
                     fontStyle: 'italic',
                     color: 'grey',
-                    padding: '5px 5px 0 0'
+                    padding: '7px'
                 }}
             >
                 *some hosted projects and services<br></br> might need some time to wake up and load
