@@ -21,20 +21,20 @@ function WebProjects() {
             <br></br>
             <div id="web_projects_wrapper">
                 <Web
+                    link={"https://pintclonemlinka.web.app/"}
+                    name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
+                    screenshot={"https://i.pinimg.com/originals/19/0d/44/190d447da8ee306ea080b72107c757af.jpg"}
+                    alt={"pinterest-clone"}
+                    source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
+                    sourceComment={"server code link in README"}
+                />
+                <Web
                     link={"https://pm-pickle.firebaseapp.com/"}
                     name={"Project Management App\n(CRA + Express + PostgreSQL)"}
                     screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
                     alt={"project-management-app"}
                     source={"https://github.com/DynamiteBob17/Project-Management-Client"}
                     sourceComment={"server code link and test users in README"}
-                />
-                <Web
-                    link={"https://pintclonemlinka.firebaseapp.com/"}
-                    name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
-                    screenshot={"https://i.pinimg.com/originals/19/0d/44/190d447da8ee306ea080b72107c757af.jpg"}
-                    alt={"pinterest-clone"}
-                    source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
-                    sourceComment={"server code link in README"}
                 />
                 <Web
                     link={"https://www.freecodecamp.org/certification/DynamiteBob17/quality-assurance-v7"}
