@@ -15,7 +15,7 @@ function CodingChallenges() {
         async function onLoad() {
             await octokit.request(
                 'GET /repos/{owner}/{repo}/contents/{path}', {
-                    owner: 'DynamiteBob1',
+                    owner: 'DynamiteBob17',
                     repo: 'Coding-Exercises',
                     path: '.'
                 }
