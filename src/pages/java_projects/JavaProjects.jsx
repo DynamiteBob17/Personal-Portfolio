@@ -8,8 +8,8 @@ function JavaProjects() {
             <p
                 style={{
                     position: 'absolute',
-                    right: '0',
-                    margin: '0',
+                    left: '0',
+                    margin: '7px',
                     fontSize: '13px',
                     fontStyle: 'italic',
                     color: 'grey',
