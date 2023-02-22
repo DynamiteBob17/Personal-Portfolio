@@ -1,7 +1,7 @@
 import React from "react";
 import "./Web.scss";
 
-function Web({ link, name, screenshot, alt, source, sourceComment, fccSources, fccComments }) {
+function Web({ link, name, screenshot, alt, source, sourceComment }) {
     return (
         <div className={"web_project"}>
             <a
@@ -18,30 +18,14 @@ function Web({ link, name, screenshot, alt, source, sourceComment, fccSources, f
                     alt={alt}
                 />
             </a>
-            {
-                source
-                    ? <a
-                        href={source}
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"web_project_source_link"}
-                    >
-                        [source code]{sourceComment === undefined ? '' : ` *${sourceComment}`}
-                    </a>
-                    : fccSources.map((fccSource, idx) => {
-                        return (
-                            <a
-                                href={fccSource}
-                                target="_blank"
-                                rel="noreferrer"
-                                className={"web_project_source_link"}
-                                key={idx}
-                            >
-                                {fccComments[idx]}
-                            </a>
-                        );
-                    })
-            }
+            <a
+                href={source}
+                target="_blank"
+                rel="noreferrer"
+                className={"web_project_source_link"}
+            >
+                [source code]{sourceComment === undefined ? '' : ` *${sourceComment}`}
+            </a>
         </div>
     );
 }

@@ -21,136 +21,83 @@ function WebProjects() {
             <br></br>
             <div id="web_projects_wrapper">
                 <Web
-                    link={"https://pintclonemlinka.web.app/"}
+                    link={"https://mlinka-pintclone.web.app/"}
                     name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
-                    screenshot={"https://i.pinimg.com/originals/19/0d/44/190d447da8ee306ea080b72107c757af.jpg"}
+                    screenshot={"https://i.ibb.co/Pwwddm0/Screenshot-5.png"}
                     alt={"pinterest-clone"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
                     sourceComment={"server code link in README"}
                 />
                 <Web
-                    link={"https://pm-pickle.firebaseapp.com/"}
+                    link={"https://pm-app-mlinka.web.app/"}
                     name={"Project Management App\n(CRA + Express + PostgreSQL)"}
-                    screenshot={"https://learn.g2crowd.com/hubfs/iStock-1135541613.jpg"}
+                    screenshot={"https://i.ibb.co/6nVV0ws/Screenshot-3.png"}
                     alt={"project-management-app"}
                     source={"https://github.com/DynamiteBob17/Project-Management-Client"}
                     sourceComment={"server code link and test users in README"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/quality-assurance-v7"}
-                    name={"Quality Assurance\n+ backend and APIs"}
-                    screenshot={"https://i.ibb.co/sqBP8LL/mocha-Chai.png"}
-                    alt={"mocha-Chai"}
-                    fccSources={[
-                        'https://fcc-converter.onrender.com',
-                        'https://fcc-issuetracker.onrender.com',
-                        'https://fcc-library-jb9a.onrender.com',
-                        'https://fcc-sudoku.onrender.com',
-                        'https://fcc-translator.onrender.com'
-                    ]}
-                    fccComments={[
-                        'Metric-Imperial Converter',
-                        'Issue Tracker',
-                        'Personal Library',
-                        'Sudoku Solver',
-                        'American-British Translator'
-                    ]}
+                    link={"https://sudoku-solver.dynamitebob17.repl.co/"}
+                    name={"Sudoku Solver with DFS algorithm\n(tested with Mocha Chai)"}
+                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
+                    alt={"sudokusolver"}
+                    source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/back-end-development-and-apis"}
-                    name={"Backend and APIs"}
-                    screenshot={"https://i.ibb.co/LYcf0J1/node-Express-Mongodb.png"}
-                    alt={"node-Express-Mongodb"}
-                    fccSources={[
-                        'https://replit.com/@JanMlinaric/FCC-Timestamp-Project?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-Headparser-Project?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-URL-Shortener-Project?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-Exercise-Tracker-Project?v=1',
-                        'https://replit.com/@JanMlinaric/FCC-File-Metadata-Project?v=1'
-                    ]}
-                    fccComments={[
-                        'Timestamp Microservice',
-                        'Request Header Parser Microservice',
-                        'URL Shortener Microservice',
-                        'Exercise Tracker',
-                        'File Metadata Microservice'
-                    ]}
+                    link={"https://personal-library.dynamitebob17.repl.co/"}
+                    name={"Personal Library\n(tested with Mocha Chai)"}
+                    screenshot={"https://i.ibb.co/c855Q5Z/Screenshot-18.png"}
+                    alt={"pagescrshot"}
+                    source={"https://github.com/DynamiteBob17/Personal-Library"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/relational-database-v8"}
-                    name={"Relational Database"}
-                    screenshot={"https://i.ibb.co/NTcfnPj/image-1.png"}
-                    alt={"psql-Bash-Git"}
-                    fccSources={[
-                        'https://github.com/DynamiteBob17/FCC/blob/main/Celestial%20Bodies%20Database/universe.sql',
-                        'https://github.com/DynamiteBob17/FCC/tree/main/World%20Cup%20Database',
-                        'https://github.com/DynamiteBob17/FCC/tree/main/Salon%20Appointment%20Scheduler',
-                        'https://github.com/DynamiteBob17/Periodic-Table-FCC',
-                        'https://github.com/DynamiteBob17/Number-Guessing-Game-FCC'
-                    ]}
-                    fccComments={[
-                        'Celestial Bodies Database',
-                        'World Cup Database',
-                        'Salon Appointment Scheduler',
-                        'Periodic Table Database',
-                        'Number Guessing Game'
-                    ]}
+                    link={"https://github.com/DynamiteBob17/Databases-and-Scripts"}
+                    name={"PostgreSQL and Bash script exercises"}
+                    screenshot={"https://i.ibb.co/jHqTbYH/Screenshot-15.png"}
+                    alt={"repo"}
+                    source={"https://github.com/DynamiteBob17/Databases-and-Scripts"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/data-visualization"}
-                    name={"Data Visualization"}
-                    screenshot={"https://cdn.dribbble.com/users/22018/screenshots/2456036/d3.png"}
-                    alt={"d3"}
-                    fccSources={[
-                        'https://codepen.io/DynamiteBob17/full/xxjpOZq',
-                        'https://codepen.io/DynamiteBob17/full/LYmeOjO',
-                        'https://codepen.io/DynamiteBob17/full/yLjpmLV',
-                        'https://codepen.io/DynamiteBob17/full/xxjYagY',
-                        'https://codepen.io/DynamiteBob17/full/eYrVaNr'
-                    ]}
-                    fccComments={[
-                        'Bar Chart',
-                        'Scatterplot Graph',
-                        'Heat Map',
-                        'Choropleth Map',
-                        'Treemap Diagram'
-                    ]}
+                    link={"https://codepen.io/DynamiteBob17/full/eYrVaNr"}
+                    name={"Treemap with D3.js"}
+                    screenshot={"https://i.ibb.co/GFjtKSy/Screenshot-18.png"}
+                    alt={"treemap"}
+                    source={"https://codepen.io/DynamiteBob17/pen/eYrVaNr"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/front-end-development-libraries"}
-                    name={"Frontend Libraries"}
-                    screenshot={"https://i.ibb.co/JxVL3KK/frontend.png"}
-                    alt={"frontend"}
-                    fccSources={[
-                        'https://codepen.io/DynamiteBob17/full/yLjbzxo',
-                        'https://codepen.io/DynamiteBob17/full/dyeWrrM',
-                        'https://codepen.io/DynamiteBob17/full/poVrrmm',
-                        'https://codepen.io/DynamiteBob17/full/ZEoXZzr',
-                        'https://codepen.io/DynamiteBob17/full/PoeOZoP'
-                    ]}
-                    fccComments={[
-                        'Random Quote Machine',
-                        'Markdown Previewer',
-                        'Drum Machine',
-                        'JavaScript Calculator',
-                        '25 + 5 Clock'
-                    ]}
+                    link={"https://codepen.io/DynamiteBob17/full/xxjYagY"}
+                    name={"Choropleth with D3.js"}
+                    screenshot={"https://i.ibb.co/LgZxDjz/Screenshot-19.png"}
+                    alt={"choropleth"}
+                    source={"https://codepen.io/DynamiteBob17/pen/xxjYagY"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/javascript-algorithms-and-data-structures"}
-                    name={"JavaScript Algorithms\nand Data Structures"}
-                    screenshot={"https://i.ibb.co/vXVxzjy/javascript.png"}
-                    alt={"javascript"}
-                    source={"https://www.freecodecamp.org/certification/DynamiteBob17/javascript-algorithms-and-data-structures"}
-                    sourceComment={"practice projects at same link"}
+                    link={"https://codepen.io/DynamiteBob17/full/LYmeOjO"}
+                    name={"Scatterplot graph with D3.js"}
+                    screenshot={"https://i.ibb.co/Bt0Hks9/Screenshot-17.png"}
+                    alt={"scatterplot"}
+                    source={"https://codepen.io/DynamiteBob17/pen/LYmeOjO"}
                 />
                 <Web
-                    link={"https://www.freecodecamp.org/certification/DynamiteBob17/responsive-web-design"}
-                    name={"Responsive Web Design"}
-                    screenshot={"https://i.ibb.co/xJwt4G0/htmlCss.png"}
-                    alt={"html-Css"}
-                    source={"https://www.freecodecamp.org/certification/DynamiteBob17/responsive-web-design"}
-                    sourceComment={"practice projects at same link"}
+                    link={"https://codepen.io/DynamiteBob17/full/ZEoXZzr"}
+                    name={"Calculator with React"}
+                    screenshot={"https://i.ibb.co/fXZ631c/Screenshot-15.png"}
+                    alt={"calculator"}
+                    source={"https://codepen.io/DynamiteBob17/pen/ZEoXZzr"}
+                />
+                <Web
+                    link={"https://codepen.io/DynamiteBob17/full/yLjbzxo"}
+                    name={"Witcher quotes with jQuery"}
+                    screenshot={"https://i.ibb.co/R9HY4qQ/Screenshot-16.png"}
+                    alt={"quotes"}
+                    source={"https://codepen.io/DynamiteBob17/pen/yLjbzxo"}
+                />
+                <Web
+                    link={"https://codepen.io/DynamiteBob17/full/dyeWrrM"}
+                    name={"Markdown previewer with React"}
+                    screenshot={"https://i.ibb.co/zGQWhSp/Screenshot-14.png"}
+                    alt={"mdpre"}
+                    source={"https://codepen.io/DynamiteBob17/pen/dyeWrrM"}
                 />
             </div>
         </>

@@ -16,7 +16,7 @@ function CodingChallenges() {
             await octokit.request(
                 'GET /repos/{owner}/{repo}/contents/{path}', {
                     owner: 'DynamiteBob17',
-                    repo: 'Coding-Exercises',
+                    repo: 'Coding-Challenges',
                     path: '.'
                 }
             ).then(result => {
@@ -62,7 +62,7 @@ function CodingChallenges() {
                 <span id="title">Coding Challenges</span>
                 <a
                     id="repo_link"
-                    href="https://github.com/DynamiteBob17/Coding-Exercises"
+                    href="https://github.com/DynamiteBob17/Coding-Challenges"
                     target="_blank"
                     rel="noreferrer"
                 >

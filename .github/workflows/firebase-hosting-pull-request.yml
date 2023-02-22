@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_MLINKA }}'
-          projectId: portfolio-mlinka
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MLINKA_PORTFOLIO }}'
+          projectId: mlinka-portfolio

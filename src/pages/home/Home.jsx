@@ -70,13 +70,6 @@ function Home() {
                 </div>
                 <div id="links">
                     <a
-                        href="https://www.freecodecamp.org/DynamiteBob17"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
-                    </a>
-                    <a
                         href="https://github.com/DynamiteBob17"
                         target="_blank"
                         rel="noreferrer"
@@ -84,18 +77,25 @@ function Home() {
                         <i className={"fa-brands fa-github"} /> GitHub
                     </a>
                     <a
-                        href="https://europa.eu/europass/eportfolio/screen/share/documents/d2181705-091f-4885-b758-3060c0962874?lang=en"
+                        href="https://europa.eu/europass/eportfolio/screen/share/documents/e1bd1783-870a-4f1f-a6f7-5be6bf088d32?lang=en"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fa-solid fa-file-lines"} /> Curriculum Vitae
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-924abb25b"
+                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-0b3688267"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fa-brands fa-linkedin"} /> LinkedIn
+                    </a>
+                    <a
+                        href="https://codepen.io/DynamiteBob17"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fa-brands fa-codepen"} /> CodePen
                     </a>
                     <a
                         href="https://leetcode.com/DynamiteBob17/"
