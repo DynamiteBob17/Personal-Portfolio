@@ -34,7 +34,7 @@ function JavaProjects() {
                 />
                 <Java
                     link={"https://github.com/DynamiteBob17/CFR-Screensaver"}
-                    name={"CFR Screensaver"}
+                    name={"Game of Life Presets, Fractal Trees\nand RGB Rain Screensaver"}
                     video={"https://drive.google.com/file/d/1uYW2UQEX0PoHeBSLv7oVA4yQz-T9b5E3/preview"}
                     videoName={"cfr.mp4"}
                 />
