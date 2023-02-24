@@ -97,13 +97,6 @@ function Home() {
                     >
                         <i className={"fa-brands fa-codepen"} /> CodePen
                     </a>
-                    <a
-                        href="https://leetcode.com/DynamiteBob17/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fa-solid fa-code"} /> LeetCode
-                    </a>
                 </div>
                 <div id="contacts">
                     <a href="tel:+385917510114">
