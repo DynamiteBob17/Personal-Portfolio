@@ -90,13 +90,6 @@ function Home() {
                     >
                         <i className={"fa-brands fa-linkedin"} /> LinkedIn
                     </a>
-                    <a
-                        href="https://codepen.io/DynamiteBob17"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fa-brands fa-codepen"} /> CodePen
-                    </a>
                 </div>
                 <div id="contacts">
                     <a href="tel:+385917510114">
