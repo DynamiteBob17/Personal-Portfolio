@@ -77,7 +77,7 @@ function Home() {
                         <i className={"fa-brands fa-github"} /> GitHub
                     </a>
                     <a
-                        href="https://europa.eu/europass/eportfolio/screen/share/documents/6596dda5-4a62-4866-bd46-ca2bc713ff7a?lang=en"
+                        href="https://europa.eu/europass/eportfolio/screen/share/4661b8e5-b55e-4741-87a0-534ca8a9e287?lang=en"
                         target="_blank"
                         rel="noreferrer"
                     >
