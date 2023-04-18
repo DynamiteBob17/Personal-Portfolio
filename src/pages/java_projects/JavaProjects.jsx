@@ -27,6 +27,12 @@ function JavaProjects() {
                     videoName={"sav.mp4"}
                 />
                 <Java
+                    link={"https://github.com/DynamiteBob17/Pathfinding-Algorithms-Visualiser"}
+                    name={"Pathfinding Algorithms Visualiser"}
+                    video={"https://drive.google.com/file/d/1i0S_NgzijYGk62f9JJcReWL35ysrLmQd/preview"}
+                    videoName={"pav.mp4"}
+                />
+                <Java
                     link={"https://github.com/DynamiteBob17/Mandelbrot-Set-Viewer"}
                     name={"Mandelbrot Set Viewer"}
                     video={"https://drive.google.com/file/d/1uS5Z0hYD2HUGPr19evmQtBnb5jpwutZq/preview"}
