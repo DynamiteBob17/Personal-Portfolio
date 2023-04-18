@@ -45,16 +45,16 @@ function JavaProjects() {
                     videoName={"tts.mp4"}
                 />
                 <Java
-                    link={"https://github.com/DynamiteBob17/Calculator"}
-                    name={"Calculator"}
-                    video={"https://drive.google.com/file/d/1MlJvfBcUOvvdlZr84HsgKo5wiz3FDQMB/preview"}
-                    videoName={"calculator.mp4"}
-                />
-                <Java
                     link={"https://github.com/DynamiteBob17/Snake-Game"}
                     name={"Snake Game"}
                     video={"https://drive.google.com/file/d/1rSL7jooabvl-GhF_3Mvj9AFce1u7kVJf/preview"}
                     videoName={"snake.mp4"}
+                />
+                <Java
+                    link={"https://github.com/DynamiteBob17/Calculator"}
+                    name={"Calculator"}
+                    video={"https://drive.google.com/file/d/1MlJvfBcUOvvdlZr84HsgKo5wiz3FDQMB/preview"}
+                    videoName={"calculator.mp4"}
                 />
                 <Java
                     link={"https://github.com/DynamiteBob17/Julia-Set-Viewer"}
