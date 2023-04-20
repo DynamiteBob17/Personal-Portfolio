@@ -29,7 +29,7 @@ function JavaProjects() {
                 <Java
                     link={"https://github.com/DynamiteBob17/Pathfinding-Algorithms-Visualiser"}
                     name={"Pathfinding Algorithms Visualiser"}
-                    video={"https://drive.google.com/file/d/1i0S_NgzijYGk62f9JJcReWL35ysrLmQd/preview"}
+                    video={"https://drive.google.com/file/d/1gvM60ihRaTIwT31ex3FoCBo9PGQA8zNv/preview"}
                     videoName={"pav.mp4"}
                 />
                 <Java
