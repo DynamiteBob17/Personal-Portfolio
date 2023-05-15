@@ -77,18 +77,32 @@ function Home() {
                         <i className={"fa-brands fa-github"} /> GitHub
                     </a>
                     <a
-                        href="https://europa.eu/europass/eportfolio/screen/share/55c85456-eeaf-4df6-81a2-e4fca0fb2c97?lang=en"
+                        href="https://europa.eu/europass/eportfolio/screen/share/9b3be07d-66da-4a18-b796-711618cacbc5?lang=en"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fa-solid fa-file-lines"} /> Curriculum Vitae
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-0b3688267"
+                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-2b90aa277"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fa-brands fa-linkedin"} /> LinkedIn
+                    </a>
+                    <a
+                        href="https://leetcode.com/DynamiteBob17/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fas fa-code"} /> LeetCode
+                    </a>
+                    <a
+                        href="https://codepen.io/DynamiteBob17"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fas fa-code"} /> CodePen
                     </a>
                 </div>
                 <div id="contacts">

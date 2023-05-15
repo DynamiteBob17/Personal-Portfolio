@@ -21,7 +21,7 @@ function WebProjects() {
             <br></br>
             <div id="web_projects_wrapper">
                 <Web
-                    link={"https://mlinka-pintclone.web.app/"}
+                    link={"https://pinterestclonemlinka.web.app/"}
                     name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
                     screenshot={"https://i.ibb.co/Pwwddm0/Screenshot-5.png"}
                     alt={"pinterest-clone"}
@@ -29,7 +29,7 @@ function WebProjects() {
                     sourceComment={"server code link in README"}
                 />
                 <Web
-                    link={"https://pm-app-mlinka.web.app/"}
+                    link={"https://projectmanagementmlinka.web.app/"}
                     name={"Project Management App\n(CRA + Express + PostgreSQL)"}
                     screenshot={"https://i.ibb.co/6nVV0ws/Screenshot-3.png"}
                     alt={"project-management-app"}
