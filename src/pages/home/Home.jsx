@@ -28,7 +28,7 @@ function Home() {
                     A software developer
                 </div>
                 <div id="age_desc">
-                    How old am I?
+                    Age:
                     <div id="age">
                         {age.getUTCFullYear() - 1970} <sub>yrs</sub>
                         &nbsp;{age.getUTCMonth()} <sub>mths</sub>
@@ -41,7 +41,7 @@ function Home() {
             </div>
             <div id="works_wrapper">
                 <div id="works_intro">
-                    These are some of the things I work on and have worked on
+                    Projects
                 </div>
                 <div id="works">
                     <Work
