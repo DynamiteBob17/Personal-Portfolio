@@ -84,7 +84,7 @@ function Home() {
                         <i className={"fa-solid fa-file-lines"} /> Curriculum Vitae
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-2b90aa277"
+                        href="https://www.linkedin.com/in/jan-mlinari%C4%87-b42b9927a"
                         target="_blank"
                         rel="noreferrer"
                     >
