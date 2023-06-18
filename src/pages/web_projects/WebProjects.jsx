@@ -29,6 +29,13 @@ function WebProjects() {
                     sourceComment={"server code link in README"}
                 />
                 <Web
+                    link={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
+                    name={"Pinterest Clone\nSpring Boot version\n(not hosted)"}
+                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    alt={"pinterest-clone-springboot"}
+                    source={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
+                />
+                <Web
                     link={"https://projectmanagementmlinka.web.app/"}
                     name={"Project Management App\n(CRA + Express + PostgreSQL)"}
                     screenshot={"https://i.ibb.co/6nVV0ws/Screenshot-3.png"}
@@ -44,11 +51,25 @@ function WebProjects() {
                     source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
                 />
                 <Web
+                    link={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot/"}
+                    name={"Sudoku Solver\nSpring Boot version\n(not hosted)"}
+                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    alt={"sudokusolver-springboot"}
+                    source={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot"}
+                />
+                <Web
                     link={"https://personal-library.dynamitebob17.repl.co/"}
                     name={"Personal Library\n(tested with Mocha Chai)"}
                     screenshot={"https://i.ibb.co/c855Q5Z/Screenshot-18.png"}
                     alt={"pagescrshot"}
                     source={"https://github.com/DynamiteBob17/Personal-Library"}
+                />
+                <Web
+                    link={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
+                    name={"Personal Library\nSpring Boot version\n(not hosted)"}
+                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    alt={"pagescrshot-springboot"}
+                    source={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Databases-and-Scripts"}
