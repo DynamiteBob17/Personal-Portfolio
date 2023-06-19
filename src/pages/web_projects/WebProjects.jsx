@@ -22,7 +22,7 @@ function WebProjects() {
             <div id="web_projects_wrapper">
                 <Web
                     link={"https://pinterestclonemlinka.web.app/"}
-                    name={"Pinterest Clone, sort of\n(Vite React + Express + MongoDB)"}
+                    name={"Pinterest Clone, sort of\n(React + Express.js + MongoDB + GitHub Login)"}
                     screenshot={"https://i.ibb.co/Pwwddm0/Screenshot-5.png"}
                     alt={"pinterest-clone"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-Client"}
@@ -30,14 +30,14 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
-                    name={"Pinterest Clone\nSpring Boot version\n(not hosted)"}
-                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    name={"Pinterest Clone\nSpring Boot version\n(React + Spring Boot + MySQL\n+ GitHub/Google login\nor username and password)\n(not hosted)"}
+                    screenshot={"https://i.ibb.co/fpyDXJV/pinterestclone-springboot.png"}
                     alt={"pinterest-clone-springboot"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
                 />
                 <Web
                     link={"https://projectmanagementmlinka.web.app/"}
-                    name={"Project Management App\n(CRA + Express + PostgreSQL)"}
+                    name={"Project Management App\n(React + Express.js + PostgreSQL\n+ username and password login)"}
                     screenshot={"https://i.ibb.co/6nVV0ws/Screenshot-3.png"}
                     alt={"project-management-app"}
                     source={"https://github.com/DynamiteBob17/Project-Management-Client"}
@@ -45,7 +45,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://sudoku-solver.dynamitebob17.repl.co/"}
-                    name={"Sudoku Solver with DFS algorithm\n(tested with Mocha Chai)"}
+                    name={"Sudoku Solver\n(Express.js + tested with Mocha Chai)"}
                     screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
                     alt={"sudokusolver"}
                     source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
@@ -53,21 +53,21 @@ function WebProjects() {
                 <Web
                     link={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot/"}
                     name={"Sudoku Solver\nSpring Boot version\n(not hosted)"}
-                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
                     alt={"sudokusolver-springboot"}
                     source={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot"}
                 />
                 <Web
                     link={"https://personal-library.dynamitebob17.repl.co/"}
-                    name={"Personal Library\n(tested with Mocha Chai)"}
+                    name={"Personal Library\n(Express.js + MongoDB\n+ tested with Mocha Chai)"}
                     screenshot={"https://i.ibb.co/c855Q5Z/Screenshot-18.png"}
                     alt={"pagescrshot"}
                     source={"https://github.com/DynamiteBob17/Personal-Library"}
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
-                    name={"Personal Library\nSpring Boot version\n(not hosted)"}
-                    screenshot={"https://webcolours.ca/wp-content/uploads/2020/10/webcolours-unknown.png"}
+                    name={"Personal Library\nSpring Boot version\n(Spring Boot + MongoDB)\n(not hosted)"}
+                    screenshot={"https://i.ibb.co/T80pQsV/personal-library-springboot.png"}
                     alt={"pagescrshot-springboot"}
                     source={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
                 />

@@ -91,6 +91,13 @@ function Home() {
                         <i className={"fa-brands fa-linkedin"} /> LinkedIn
                     </a>
                     <a
+                        href="https://www.freecodecamp.org/DynamiteBob17"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
+                    </a>
+                    <a
                         href="https://leetcode.com/DynamiteBob17/"
                         target="_blank"
                         rel="noreferrer"
