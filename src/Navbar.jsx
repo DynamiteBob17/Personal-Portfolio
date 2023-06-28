@@ -23,12 +23,6 @@ function Navbar(props) {
             >
                 java
             </NavLink>
-            <NavLink
-                className={navData => navData.isActive ? "active" : "inactive"}
-                to={"/coding_challenges"}
-            >
-                challenges
-            </NavLink>
         </nav>
     )
 }
