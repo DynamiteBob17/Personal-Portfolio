@@ -30,7 +30,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
-                    name={"Pinterest Clone\n(React + Spring Boot + MySQL)\n(not hosted)"}
+                    name={"Pinterest Clone\n(React + Spring Boot + MySQL)\n- not hosted"}
                     screenshot={"https://i.ibb.co/fpyDXJV/pinterestclone-springboot.png"}
                     alt={"pinterest-clone-springboot"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
@@ -47,7 +47,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://sudoku-solver.dynamitebob17.repl.co/"}
-                    name={"Sudoku Solver\n(Express.js + tested with Mocha\nChai)"}
+                    name={"Sudoku Solver\n(Express.js + tested with\nMocha Chai)"}
                     screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
                     alt={"sudoku-solver"}
                     source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
@@ -55,7 +55,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot/"}
-                    name={"Sudoku Solver\nSpring Boot version\n(not hosted)"}
+                    name={"Sudoku Solver\n(Spring Boot)\n- not hosted"}
                     screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
                     alt={"sudoku-solver-springboot"}
                     source={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot"}
@@ -71,7 +71,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
-                    name={"Personal Library\nSpring Boot version\n(Spring Boot + MongoDB)\n(not hosted)"}
+                    name={"Personal Library\n(Spring Boot + MongoDB)\n- not hosted"}
                     screenshot={"https://i.ibb.co/T80pQsV/personal-library-springboot.png"}
                     alt={"pagescrshot-springboot"}
                     source={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
