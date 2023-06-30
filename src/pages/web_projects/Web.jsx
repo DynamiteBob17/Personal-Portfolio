@@ -1,7 +1,8 @@
 import React from "react";
 import "./Web.scss";
+import ReadmeModal from "../ReadmeModal";
 
-function Web({ link, name, screenshot, alt, source, sourceComment }) {
+function Web({ link, name, screenshot, alt, source, repo, sourceComment }) {
     return (
         <div className={"web_project"}>
             <a
@@ -24,8 +25,9 @@ function Web({ link, name, screenshot, alt, source, sourceComment }) {
                 rel="noreferrer"
                 className={"web_project_source_link"}
             >
-                [source code]{sourceComment === undefined ? '' : ` *${sourceComment}`}
+                [repository]{sourceComment === undefined ? '' : ` *${sourceComment}`}
             </a>
+            {repo !== undefined && <ReadmeModal repo={repo}/>}
         </div>
     );
 }

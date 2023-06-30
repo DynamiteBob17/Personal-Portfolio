@@ -56,17 +56,11 @@ function Home() {
                         description={"A number of desktop programs written in Java on topics and concepts I took interest in"}
                         route={"/java_projects"}
                     />
-                    <Work
-                        icon={"fa fa-code"}
-                        title={"CODING CHALLENGES"}
-                        description={"A collection of coding challenges that I solve from time to time"}
-                        route={"/coding_challenges"}
-                    />
                 </div>
             </div>
             <div id="resume_and_contacts">
                 <div id="rac_intro">
-                    Resume info and contacts
+                    Resume info, relevant links and contacts
                 </div>
                 <div id="links">
                     <a
@@ -91,18 +85,19 @@ function Home() {
                         <i className={"fa-brands fa-linkedin"} /> LinkedIn
                     </a>
                     <a
-                        href="https://www.freecodecamp.org/DynamiteBob17"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
-                    </a>
-                    <a
                         href="https://leetcode.com/DynamiteBob17/"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <i className={"fas fa-code"} /> LeetCode
+                    </a>
+                    <div style={{fontStyle: 'italic', fontSize: '18px', marginBottom: '5px'}}>More projects here:</div>
+                    <a
+                        href="https://www.freecodecamp.org/DynamiteBob17"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
                     </a>
                     <a
                         href="https://codepen.io/DynamiteBob17"

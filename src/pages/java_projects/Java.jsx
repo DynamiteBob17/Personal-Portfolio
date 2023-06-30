@@ -1,7 +1,8 @@
 import React from "react";
 import "./Java.scss";
+import ReadmeModal from "../ReadmeModal";
 
-function Java({ link, name, video, videoName }) {
+function Java({ link, name, video, videoName, repo }) {
     return (
         <div className={"java_project"}>
             <a
@@ -16,6 +17,7 @@ function Java({ link, name, video, videoName }) {
                 src={video}
                 title={videoName}
             />
+            {repo !== undefined && <ReadmeModal repo={repo}/>}
         </div>
     );
 }
