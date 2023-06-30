@@ -27,6 +27,7 @@ code {
   position: relative;
   width: 80px;
   height: 80px;
+  left: calc(50% - 40px);
 }
 .lds-ring div {
   box-sizing: border-box;
