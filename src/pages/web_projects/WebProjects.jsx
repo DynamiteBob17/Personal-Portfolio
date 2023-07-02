@@ -71,7 +71,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
-                    name={"Personal Library\n(Spring Boot + MongoDB)\n- not hosted"}
+                    name={"Personal Library\n(Spring Boot + Thymeleaf\n+ MongoDB)\n- not hosted"}
                     screenshot={"https://i.ibb.co/T80pQsV/personal-library-springboot.png"}
                     alt={"pagescrshot-springboot"}
                     source={"https://github.com/DynamiteBob17/Personal-Library-SpringBoot"}
