@@ -47,7 +47,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Trokuti"}
-                    name={"Trokuti (Triangles)\n(React + Spring Boot + H2)"}
+                    name={"Trokuti (Triangles)\n(React + Spring Boot + H2)\n- not hosted"}
                     screenshot={"https://i.ibb.co/vkvk59R/Desktop-Screenshot-2023-11-16-15-56-02-54.png"}
                     alt={"trokuti"}
                     source={"https://github.com/DynamiteBob17/Trokuti"}
