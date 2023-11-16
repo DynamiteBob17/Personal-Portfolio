@@ -30,7 +30,7 @@ function WebProjects() {
                 />
                 <Web
                     link={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
-                    name={"Pinterest Clone\n(React + Spring Boot + MySQL)\n- not hosted"}
+                    name={"Pinterest Clone\n(React + Spring Boot + H2)\n- not hosted"}
                     screenshot={"https://i.ibb.co/fpyDXJV/pinterestclone-springboot.png"}
                     alt={"pinterest-clone-springboot"}
                     source={"https://github.com/DynamiteBob17/Pinterest-Clone-SpringBoot"}
@@ -44,6 +44,14 @@ function WebProjects() {
                     source={"https://github.com/DynamiteBob17/Project-Management-Client"}
                     sourceComment={"test users in README"}
                     repo={'Project-Management-Client'}
+                />
+                <Web
+                    link={"https://github.com/DynamiteBob17/Trokuti"}
+                    name={"Trokuti (Triangles)\n(React + Spring Boot + H2)"}
+                    screenshot={"https://i.ibb.co/vkvk59R/Desktop-Screenshot-2023-11-16-15-56-02-54.png"}
+                    alt={"trokuti"}
+                    source={"https://github.com/DynamiteBob17/Trokuti"}
+                    repo={"Trokuti"}
                 />
                 <Web
                     link={"https://sudoku-solver.dynamitebob17.repl.co/"}
