@@ -70,6 +70,14 @@ function WebProjects() {
                     repo={'Sudoku-Solver-SpringBoot'}
                 />
                 <Web
+                    link={"https://engit-nn.web.app/"}
+                    name={"Handwritten Digit Recognition\n(React + TensorFlow.js)"}
+                    screenshot={"https://i.ibb.co/DDVzNqk/Screenshot-2023-12-23-163451.png"}
+                    alt={"handwritten-digit-recognition"}
+                    source={"https://github.com/DynamiteBob17/Handwritten-Digit-Recognition"}
+                    repo={'Handwritten-Digit-Recognition'}
+                />
+                <Web
                     link={"https://personal-library.dynamitebob17.repl.co/"}
                     name={"Personal Library\n(Express.js + MongoDB\n+ tested with Mocha Chai)"}
                     screenshot={"https://i.ibb.co/c855Q5Z/Screenshot-18.png"}
