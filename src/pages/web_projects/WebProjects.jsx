@@ -54,22 +54,6 @@ function WebProjects() {
                     repo={"Trokuti"}
                 />
                 <Web
-                    link={"https://sudoku-solver.dynamitebob17.repl.co/"}
-                    name={"Sudoku Solver\n(Express.js + tested with\nMocha Chai)"}
-                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
-                    alt={"sudoku-solver"}
-                    source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
-                    repo={'Sudoku-Solver'}
-                />
-                <Web
-                    link={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot/"}
-                    name={"Sudoku Solver\n(Spring Boot)\n- not hosted"}
-                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
-                    alt={"sudoku-solver-springboot"}
-                    source={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot"}
-                    repo={'Sudoku-Solver-SpringBoot'}
-                />
-                <Web
                     link={"https://spotify-playlist-shuffle.web.app/"}
                     name={"Spotify Playlist Shuffler\n(React)"}
                     screenshot={"https://i.ibb.co/127573j/Screenshot-2024-02-11-215621.png"}
@@ -84,6 +68,22 @@ function WebProjects() {
                     alt={"handwritten-digit-recognition"}
                     source={"https://github.com/DynamiteBob17/Handwritten-Digit-Recognition"}
                     repo={'Handwritten-Digit-Recognition'}
+                />
+                <Web
+                    link={"https://sudoku-solver.dynamitebob17.repl.co/"}
+                    name={"Sudoku Solver\n(Express.js + tested with\nMocha Chai)"}
+                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
+                    alt={"sudoku-solver"}
+                    source={"https://github.com/DynamiteBob17/Sudoku-Solver"}
+                    repo={'Sudoku-Solver'}
+                />
+                <Web
+                    link={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot/"}
+                    name={"Sudoku Solver\n(Spring Boot)\n- not hosted"}
+                    screenshot={"https://i.ibb.co/T1kmD6D/Screenshot-17.png"}
+                    alt={"sudoku-solver-springboot"}
+                    source={"https://github.com/DynamiteBob17/Sudoku-Solver-SpringBoot"}
+                    repo={'Sudoku-Solver-SpringBoot'}
                 />
                 <Web
                     link={"https://personal-library.dynamitebob17.repl.co/"}
