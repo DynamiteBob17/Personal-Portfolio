@@ -70,6 +70,14 @@ function WebProjects() {
                     repo={'Sudoku-Solver-SpringBoot'}
                 />
                 <Web
+                    link={"https://spotify-playlist-shuffle.web.app/"}
+                    name={"Spotify Playlist Shuffler\n(React)"}
+                    screenshot={"https://i.ibb.co/127573j/Screenshot-2024-02-11-215621.png"}
+                    alt={"spotify-playlist-shuffler"}
+                    source={"https://github.com/DynamiteBob17/Spotify-Playlist-Shuffler"}
+                    repo={'Spotify-Playlist-Shuffler'}
+                />
+                <Web
                     link={"https://engit-nn.web.app/"}
                     name={"Handwritten Digit Recognition\n(React + TensorFlow.js)"}
                     screenshot={"https://i.ibb.co/DDVzNqk/Screenshot-2023-12-23-163451.png"}
