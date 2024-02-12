@@ -54,7 +54,7 @@ function WebProjects() {
                     repo={"Trokuti"}
                 />
                 <Web
-                    link={"https://spotify-playlist-shuffle.web.app/"}
+                    link={"https://shuffle-spotify-playlist.web.app/"}
                     name={"Spotify Playlist Shuffler\n(React)"}
                     screenshot={"https://i.ibb.co/127573j/Screenshot-2024-02-11-215621.png"}
                     alt={"spotify-playlist-shuffler"}
