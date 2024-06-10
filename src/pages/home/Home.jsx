@@ -71,7 +71,7 @@ function Home() {
                         <i className={"fa-brands fa-github"} /> GitHub
                     </a>
                     <a
-                        href="https://europa.eu/europass/eportfolio/screen/share/93efa262-4b98-499d-89be-6871d37db8e3?lang=en"
+                        href="https://europa.eu/europass/eportfolio/screen/share/7bd82ece-a79f-4fd7-a9ac-1d37d1b78fac?lang=en"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -91,22 +91,6 @@ function Home() {
                     >
                         <i className={"fas fa-code"} /> LeetCode
                     </a>
-                    <div style={{fontStyle: 'italic', fontSize: '18px', marginBottom: '5px'}}>More projects here:</div>
-                    <a
-                        href="https://www.freecodecamp.org/DynamiteBob17"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fa-brands fa-free-code-camp"} /> freeCodeCamp
-                    </a>
-                    <a
-                        href="https://codepen.io/DynamiteBob17"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className={"fas fa-code"} /> CodePen
-                    </a>
-                </div>
                 <div id="contacts">
                     <a href="tel:+385917510114">
                         <i className={"fa fa-phone"} /> +385917510114
