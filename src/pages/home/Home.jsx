@@ -91,6 +91,7 @@ function Home() {
                     >
                         <i className={"fas fa-code"} /> LeetCode
                     </a>
+                </div> {/* Closing div for links */}
                 <div id="contacts">
                     <a href="tel:+385917510114">
                         <i className={"fa fa-phone"} /> +385917510114
