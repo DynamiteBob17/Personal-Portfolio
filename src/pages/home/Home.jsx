@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import './Home.scss';
 import Work from "./Work";
 
