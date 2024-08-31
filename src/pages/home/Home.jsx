@@ -27,7 +27,7 @@ function Home() {
                 <div id="intro_desc">
                     A software developer
                 </div>
-                <div id="age_desc">
+                {/*<div id="age_desc">
                     Age:
                     <div id="age">
                         {age.getUTCFullYear() - 1970} <sub>yrs</sub>
@@ -37,7 +37,7 @@ function Home() {
                         &nbsp;{age.getUTCMinutes()} <sub>mins</sub>
                         &nbsp;{age.getUTCSeconds()} <sub>s</sub>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div id="works_wrapper">
                 <div id="works_intro">
