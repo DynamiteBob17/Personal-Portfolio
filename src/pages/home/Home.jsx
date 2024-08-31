@@ -2,22 +2,7 @@ import React, { useEffect, useState } from "react";
 import './Home.scss';
 import Work from "./Work";
 
-const birthday = new Date('2000/01/08 00:10');
-
 function Home() {
-    const [age, setAge] = useState(new Date(new Date() - birthday));
-
-    function refreshAge() {
-        setAge(new Date(new Date() - birthday));
-    }
-
-    useEffect(() => {
-        const timerId = setInterval(refreshAge, 100);
-        return function cleanup() {
-            clearInterval(timerId);
-        };
-    }, []);
-
     return (
         <div id="homepage">
             <div id="intro">
@@ -27,17 +12,6 @@ function Home() {
                 <div id="intro_desc">
                     A software developer
                 </div>
-                {/*<div id="age_desc">
-                    Age:
-                    <div id="age">
-                        {age.getUTCFullYear() - 1970} <sub>yrs</sub>
-                        &nbsp;{age.getUTCMonth()} <sub>mths</sub>
-                        &nbsp;{age.getUTCDate() - 1} <sub>days</sub>
-                        &nbsp;{age.getUTCHours()} <sub>hrs</sub>
-                        &nbsp;{age.getUTCMinutes()} <sub>mins</sub>
-                        &nbsp;{age.getUTCSeconds()} <sub>s</sub>
-                    </div>
-                </div> */}
             </div>
             <div id="works_wrapper">
                 <div id="works_intro">
