@@ -35,6 +35,13 @@ function JavaProjects() {
                     repo={'Pathfinding-Algorithms-Visualiser'}
                 />
                 <Java
+                    link={"https://github.com/DynamiteBob17/nbafantasy"}
+                    name={"NBA Fantasy League Lineup Optimizer"}
+                    video={"https://www.youtube.com/embed/z3ZBZ_43oIE?si=xJo6EyPFNLmy0QVr"}
+                    videoName={"nbafantasy.mp4"}
+                    repo={'nbafantasy'}
+                />
+                <Java
                     link={"https://github.com/DynamiteBob17/Mandelbrot-Set-Viewer"}
                     name={"Mandelbrot Set Viewer"}
                     video={"https://drive.google.com/file/d/1uS5Z0hYD2HUGPr19evmQtBnb5jpwutZq/preview"}
