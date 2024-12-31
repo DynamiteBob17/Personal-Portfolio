@@ -36,7 +36,7 @@ function JavaProjects() {
                 />
                 <Java
                     link={"https://github.com/DynamiteBob17/nbafantasy"}
-                    name={"NBA Fantasy League Lineup Optimizer"}
+                    name={"NBA Fantasy Lineup Finder"}
                     video={"https://www.youtube.com/embed/z3ZBZ_43oIE?si=xJo6EyPFNLmy0QVr"}
                     videoName={"nbafantasy.mp4"}
                     repo={'nbafantasy'}
