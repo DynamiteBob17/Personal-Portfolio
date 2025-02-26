@@ -14,7 +14,7 @@ function Home() {
             </div>
             <div id="works_wrapper">
                 <div id="works_intro">
-                    Projects
+                    Projects<br>This portfolio website and most of the projects haven't been maintained or updated for a while...
                 </div>
                 <div id="works">
                     <Work
